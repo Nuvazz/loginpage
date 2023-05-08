@@ -3,9 +3,9 @@ const successMessage = document.getElementById('success-message');
 
 loginForm.addEventListener('submit', function(event) {
 	event.preventDefault();
-	
+
 	// Perform login validation and display success message
-	
+
 	successMessage.style.display = "block";
 	setTimeout(function() {
 		window.location.href = "";
@@ -16,4 +16,3 @@ function showRegisterForm() {
     document.getElementById("login-form").style.display = "none";
     document.getElementById("register-form").style.display = "block";
 }
-
